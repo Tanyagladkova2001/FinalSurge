@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" thread-count="1" parallel="tests" >
+
+
+    <test name="test 1">
+        <parameter name="keyword" value="keyValue"/>
+        <classes>
+            <class name="finalsurge.AddProfileTest">
+            </class>
+        </classes>
+    </test>
+    <test name="test 2">
+        <parameter name="keyword" value="keyValue"/>
+        <classes>
+            <class name="finalsurge.AddWorkoutTest">
+            </class>
+        </classes>
+    </test>
+    <test name="test 3">
+        <parameter name="keyword" value="keyValue"/>
+        <classes>
+            <class name="finalsurge.LogoutTest">
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
