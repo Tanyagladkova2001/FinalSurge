@@ -8,7 +8,7 @@ public class AbstractStep {
 
     WebDriver driver;
 
-    public AbstractStep(WebDriver driver){
+    public  AbstractStep(WebDriver driver){
         this.driver=driver;
     }
     protected void validatePageIsLoaded(BasePage page){

@@ -20,7 +20,7 @@ public class LogoutPage extends BasePage {
     }
 
     @Override
-    public BasePage openPage() {
+    public  BasePage openPage() {
         driver.get(BASE_URL);
         return this;
     }

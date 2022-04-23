@@ -17,7 +17,7 @@ public abstract class BasePage {
     }
 
 
-    abstract public void waitPageLoaded();
+    abstract public void  waitPageLoaded();
 
     abstract public BasePage openPage();
 

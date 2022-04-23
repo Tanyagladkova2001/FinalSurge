@@ -15,7 +15,7 @@ import java.util.Date;
 public class TestListener implements ITestListener {
 
 
-    public void onTestFailure(ITestResult iTestResult) {
+    public void  onTestFailure(ITestResult iTestResult) {
         AllureUtils.attachScreenshot(getScreenshot (iTestResult));
     }
 

@@ -13,10 +13,10 @@ pipeline {
                 git branch: '$BRANCH', url:'https://github.com/AnnaVerkhova/FinalSurge.git'
 
                 // Run Maven on a Unix agent.
-                // "mvn clean test -Dmaven.test.failure.ignore=true -Dmaven.compiler.source=11 -Dmaven.compiler.target=11"
+                 sh "mvn clean test -Dmaven.test.failure.ignore=true -Dmaven.compiler.source=11 -Dmaven.compiler.target=11"
 
                 // To run Maven on a Windows agent, use
-                 bat "mvn clean test -Dmaven.test.failure.ignore=true -Dmaven.compiler.source=11 -Dmaven.compiler.target=11"
+                 //bat "mvn clean test -Dmaven.test.failure.ignore=true -Dmaven.compiler.source=11 -Dmaven.compiler.target=11"
             }
 
             post {

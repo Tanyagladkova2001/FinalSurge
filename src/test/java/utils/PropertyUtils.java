@@ -11,7 +11,7 @@ public class PropertyUtils {
     private static Properties PROPERTIES = null;
 
 
-    private static void readProperties() {
+    private static void  readProperties() {
         PROPERTIES = System.getProperties();
         try {
             PROPERTIES.load(new FileInputStream(new File(CONFIG_PATH)));

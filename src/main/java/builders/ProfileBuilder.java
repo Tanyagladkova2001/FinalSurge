@@ -9,7 +9,7 @@ public class ProfileBuilder {
         this.profileModel = profileModel;
     }
 
-    public static ProfileBuilder defaultProfile() {
+    public static  ProfileBuilder defaultProfile() {
         ProfileModel profileModel = new ProfileModel();
         profileModel.setGender("Female");
         profileModel.setBirthday("11/20/1991");

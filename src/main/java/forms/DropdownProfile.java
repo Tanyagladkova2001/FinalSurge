@@ -19,7 +19,7 @@ public class DropdownProfile extends AbstractComponent {
     private static final String OPTION_LIST_PATTERN = "//div[contains(@class,'formSep')]" +
                     "//select//option[text()='%s']";
 
-    Logger log = LogManager.getLogger(DropdownProfile.class);
+    Logger log =  LogManager.getLogger(DropdownProfile.class);
 
     public DropdownProfile(WebDriver driver,String label) {
         super(driver);

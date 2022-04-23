@@ -9,6 +9,6 @@ public class SaveChangesButton extends MenuButton{
 
 
     public SaveChangesButton(WebDriver driver, String label) {
-        super(driver, String.valueOf(SAVE_CHANGES_BUTTON_LABEL));
+        super(driver,  String.valueOf(SAVE_CHANGES_BUTTON_LABEL));
     }
 }

@@ -18,7 +18,7 @@ public class InputProfile extends AbstractComponent {
     Logger log = LogManager.getLogger(InputProfile.class);
 
     private String label;
-    private By inputLocator;
+    private By  inputLocator;
 
     public InputProfile(WebDriver driver, String label) {
         super(driver);

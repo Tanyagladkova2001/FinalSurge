@@ -3,7 +3,7 @@ package model;
 import lombok.Data;
 
 @Data
-public class WorkoutModel {
+public class  WorkoutModel {
     String WorkoutName;
     String Distance;
     String Duration;

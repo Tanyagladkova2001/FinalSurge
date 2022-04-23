@@ -6,7 +6,7 @@ public class LogoutTest extends BaseTest {
 
 
     @Test(description ="Выход из аккаунта")
-    public void logoutTest() {
+    public void  logoutTest() {
         mainStep
                 .openFinalLoginPage()
                 .loginWithValidCred()

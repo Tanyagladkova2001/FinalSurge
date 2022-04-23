@@ -20,7 +20,7 @@ public class HomePage extends BasePage {
     public static final By LOGOUT = By.xpath("//a[contains(.,'Logout')]");
 
 
-    Logger log = LogManager.getLogger(HomePage.class);
+    Logger  log = LogManager.getLogger(HomePage.class);
 
 
     public HomePage(WebDriver driver) {

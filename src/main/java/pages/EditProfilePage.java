@@ -15,7 +15,7 @@ public class EditProfilePage extends BasePage {
     }
 
     @Override
-    public void waitPageLoaded() {
+    public void  waitPageLoaded() {
         explicitlyWait.until(ExpectedConditions.visibilityOfElementLocated(HEADER));
     }
 

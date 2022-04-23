@@ -19,7 +19,7 @@ public class EditProfileSteps extends AbstractStep {
     SettingsPage settingsPage = new SettingsPage(driver);
 
     @Step("Create a new profile")
-    public SettingsSteps createNewProfile(ProfileModel profileModel) {
+    public SettingsSteps  createNewProfile(ProfileModel profileModel) {
         CreateProfileFormComponent form = new CreateProfileFormComponent(driver);
         Assert.assertTrue(
                 form.isComponentDisplayed(),

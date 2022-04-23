@@ -18,7 +18,7 @@ public class SettingsSteps extends AbstractStep {
     }
 
     @Step("The profile page opens")
-    public EditProfileSteps openEditProfilePage() {
+    public  EditProfileSteps openEditProfilePage() {
         settingsPage = new SettingsPage(driver);
         settingsPage.openEditProfileForm();
         editProfilePage = new EditProfilePage(driver);

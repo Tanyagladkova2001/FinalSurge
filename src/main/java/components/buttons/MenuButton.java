@@ -17,7 +17,7 @@ public class MenuButton extends AbstractComponent {
     public MenuButton(WebDriver driver,String label) {
         super(driver);
         this.label=label;
-        this.buttonLocator =By.xpath(String.format(BUTTON_LOCATOR_PATTERN, label));
+        this.buttonLocator = By.xpath(String.format(BUTTON_LOCATOR_PATTERN, label));
     }
 
     public void click() {
