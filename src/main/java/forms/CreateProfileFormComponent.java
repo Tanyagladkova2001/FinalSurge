@@ -22,7 +22,7 @@ public class CreateProfileFormComponent extends AbstractComponent {
     }
 
     @Override
-    public boolean isComponentDisplayed() {
+    public boolean  isComponentDisplayed() {
         try {
             explicitlyWait.until(ExpectedConditions.visibilityOfElementLocated(HEADER));
         } catch (TimeoutException ex) {

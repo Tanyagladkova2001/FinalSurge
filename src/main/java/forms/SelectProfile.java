@@ -18,7 +18,7 @@ public class SelectProfile extends AbstractComponent {
     public By selectLocator;
     public By Locator;
 
-    public SelectProfile(WebDriver driver,String label) {
+    public  SelectProfile(WebDriver driver,String label) {
         super(driver);
         this.label = label;
         this.selectLocator= Locator;

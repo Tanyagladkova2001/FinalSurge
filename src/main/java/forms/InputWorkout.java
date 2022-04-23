@@ -18,7 +18,7 @@ public class InputWorkout extends AbstractComponent {
     private String label;
     private By inputLocator;
 
-    Logger log = LogManager.getLogger(InputWorkout.class);
+    Logger log =  LogManager.getLogger(InputWorkout.class);
 
     public InputWorkout(WebDriver driver,String label) {
         super(driver);

@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class CapabilitiesGenerator {
 
-    public static ChromeOptions getChromeOptions() {
+    public static  ChromeOptions getChromeOptions() {
         ChromeOptions options = new ChromeOptions();
         String os = System.getProperty("os.name").toLowerCase();
         String driverPath= null;

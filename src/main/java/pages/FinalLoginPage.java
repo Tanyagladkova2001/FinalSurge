@@ -15,7 +15,7 @@ public class FinalLoginPage extends BasePage{
 
     Logger log = LogManager.getLogger(FinalLoginPage.class);
 
-    public FinalLoginPage(WebDriver driver) {
+    public  FinalLoginPage(WebDriver driver) {
         super(driver);
     }
 

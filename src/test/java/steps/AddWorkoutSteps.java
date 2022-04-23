@@ -19,7 +19,7 @@ public class AddWorkoutSteps extends AbstractStep {
 
     AddWorkoutPage addWorkoutPage = new AddWorkoutPage(driver);
 
-    @Step("Adding workout")
+    @Step(" Adding workout")
     public AddWorkoutSteps addWorkout(){
         homePage = new HomePage(driver);
         homePage.openAddWorkoutButton();

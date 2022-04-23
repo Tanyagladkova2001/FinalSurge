@@ -3,7 +3,7 @@ package model;
 import lombok.Data;
 
 @Data
-public class ProfileModel {
+public class  ProfileModel {
 
     String Gender;
     String Birthday;

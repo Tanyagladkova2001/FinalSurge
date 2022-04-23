@@ -19,7 +19,7 @@ public class AddWorkoutPage extends BasePage{
     public static final By RUNNING_BUTTON = By.xpath("//div//a[@data-code='run']//i[@class='icon-chevron-left' and contains(.,Run)]");
     public static final By SAVE_BUTTON = By.xpath("//input[@id='saveButton']");
 
-    Logger log = LogManager.getLogger(AddWorkoutPage.class);
+    Logger log =  LogManager.getLogger(AddWorkoutPage.class);
 
     @Override
     public void waitPageLoaded() {

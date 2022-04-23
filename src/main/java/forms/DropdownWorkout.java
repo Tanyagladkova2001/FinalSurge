@@ -22,7 +22,7 @@ public class DropdownWorkout extends AbstractComponent {
     private static final String OPTION_LIST_PATTERN_TIME = "//ul//li[contains(.,'%s')]";
      private static final String OPTION_LIST_PATTERN_EFFORT = "//option[contains(.,'%s')]";
 
-    Logger log = LogManager.getLogger(DropdownWorkout.class);
+    Logger log =  LogManager.getLogger(DropdownWorkout.class);
 
     public DropdownWorkout(WebDriver driver, String label) {
         super(driver);

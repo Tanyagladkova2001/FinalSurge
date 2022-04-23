@@ -13,7 +13,7 @@ public class AddWorkoutTest extends BaseTest{
     WorkoutModel testWorkout = WorkoutModelUtils.getWorkModel();
     WorkoutModel testWorkoutTwo = WorkoutBuilder.buildDefault().build();
 
-    @Test(description = "Тестирование добавления тренировки")
+    @Test(description =  "Тестирование добавления тренировки")
     public void addNewWorkoutTest(){
         mainStep
                 .openFinalLoginPage()

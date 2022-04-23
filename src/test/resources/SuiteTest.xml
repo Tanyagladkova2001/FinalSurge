@@ -6,7 +6,7 @@
     <test name="test 1">
         <parameter name="keyword" value="keyValue"/>
         <classes>
-            <class name="finalsurge.AddProfileTest">
+            <class name= "finalsurge.AddProfileTest">
             </class>
         </classes>
     </test>

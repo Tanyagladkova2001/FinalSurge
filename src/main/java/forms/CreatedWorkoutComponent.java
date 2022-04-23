@@ -18,7 +18,7 @@ public class CreatedWorkoutComponent extends AbstractComponent {
     String label;
     By textFieldContactLocator;
 
-    Logger log = LogManager.getLogger(CreatedWorkoutComponent.class);
+    Logger log =  LogManager.getLogger(CreatedWorkoutComponent.class);
 
     public CreatedWorkoutComponent(WebDriver driver, String label) {
         super(driver);

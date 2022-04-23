@@ -15,7 +15,7 @@ public class AddProfileTest extends BaseTest {
     ProfileModel testProfile2 = ProfileBuilder.defaultProfile().build();
 
 
-    @Test(description = "Тестирование нового профиля")
+    @Test(description =  "Тестирование нового профиля")
     public void addNewProfileTest() {
         mainStep
                 .openFinalLoginPage()

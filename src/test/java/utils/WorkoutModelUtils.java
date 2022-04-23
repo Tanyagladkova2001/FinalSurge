@@ -2,7 +2,7 @@ package utils;
 import model.WorkoutModel;
 
 public class WorkoutModelUtils {
-    public static WorkoutModel getWorkModel() {
+    public static WorkoutModel  getWorkModel() {
         WorkoutModel workoutModel = new WorkoutModel();
         workoutModel.setCaloriesBurned("300");
         workoutModel.setWorkoutName("Running");

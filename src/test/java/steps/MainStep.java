@@ -18,7 +18,7 @@ public class MainStep extends AbstractStep {
     private static final String VALID_LOGIN = PropertyUtils.getEnv("login");
     public static final String VALID_PASSWORD =PropertyUtils.getEnv("password");
 
-    public MainStep(WebDriver driver) {
+    public  MainStep(WebDriver driver) {
         super(driver);
     }
 

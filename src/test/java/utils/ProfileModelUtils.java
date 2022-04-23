@@ -4,7 +4,7 @@ import model.ProfileModel;
 
 public class ProfileModelUtils {
 
-    public static ProfileModel getDefaultProfileModel() {
+    public static  ProfileModel getDefaultProfileModel() {
         ProfileModel profileModel = new ProfileModel();
         profileModel.setGender("Female");
         profileModel.setBirthday("11/20/1991");

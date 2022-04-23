@@ -24,7 +24,7 @@ public class WorkoutBuilder {
 
     }
     public WorkoutBuilder(){
-        workoutModel = new WorkoutModel();
+        workoutModel =  new WorkoutModel();
 
     }
     public static WorkoutBuilder newValues() {
